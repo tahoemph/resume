@@ -7,29 +7,60 @@
 \begin{document}
 
 % Center the name over the entire width of resume:
- \moveleft.5\hoffset\centerline{\large\bf Michael Hunter}
+ \moveleft.5\hoffset\centerline{\Huge\bf Michael Hunter}
 % Draw a horizontal line the whole width of resume:
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
 % Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{225 Fell St. Apt. 9}
- \moveleft.5\hoffset\centerline{San Francisco, CA 94102}
+ \moveleft.5\hoffset\centerline{66405 Cline Falls Road}
+ \moveleft.5\hoffset\centerline{Bend, OR 97703}
  \moveleft.5\hoffset\centerline{tahoemph@gmail.com}
- \moveleft.5\hoffset\centerline{775-298-6864}
+ \moveleft.5\hoffset\centerline{504-493-5569}
 
 
 \begin{resume}
  
 \section{Education} {\sl MS Mathematics } CSULB, June 1994
 
-                    {\sl AB Mathematics } Occidental College, June 1989
+                    {\sl BA Mathematics } Occidental College, June 1989
  
-\section{Employment} {\sl Principal Engineer} iMatchative \hfill January 2015 - Present
+    \section{Employment} {Principal Engineer Say Media \hfill October 2015 - Present}
+
+                \emph{Team Member}\\
+                Built the backend and participated in the frontend implementation of
+                a Facebook posting feature for the Say Media publishing platform.  The backend was
+                in Python and the frontend in AngularJS.  I was the only member to contribute
+                to all repos involved.
+
+                \emph{Team Member} Migrated a subscription feature from an in house integrated Facebook login
+                to one built on top of Auth0.  This involved integration with an AngularJS frontend
+                application and a Nodejs based AWS Lambda backend.
+
+                \emph{Team Leader} Lead the Advertising team at Say Media.  This included creating a new
+                advertising product which was able to be trafficked by our customers and run
+                on a variety of different DSPs, migrate our data system from running on
+                top of map/reduce to one built on top of Redshift, Kinesis Firehose, and
+                S3 with some custom ETL scripts running in ECS written in Python, and managed
+                day to day ads and data problems.  Other technologies we used for delivering
+                ads included Python for general backend services, AngularJS for internal
+                tools, Nodejs for high performance asset delivery,
+                and various AWS services (CloudFront, S3, EC2) for deployments.
+
+                \emph{Team Member, Architecture, and Leadership}\\
+                Helped migrate a number of microservices from our data center to
+                AWS.  Initially we were using core services such as EC2, ELB, ASG, S3,
+                and RDS.  As time went on we added Redshift, CloudFront, SNS, Dynamodb,
+                API Gateway, and others.  I've become one of the AWS infrastructure
+                knowledgable engineers at Say.  We used the Hashicorp tools for managing
+                out infrastructure.
+
+                \textbf{Principal Engineer} iMatchative \hfill January 2015 - June 2015
 
                 Leading the migration of a financial analytics website onto a modern stack
-                in order to increase feature velocity.
+                in order to increase feature velocity.  The stack was SQL Server,
+                Python, and AngularJS.
  
-                {\sl Software Architect} Say Media \hfill September 2012 - January 2015
+                {\sl\large Software Architect} Say Media \hfill September 2012 - January 2015
 
                 Initially my role at Say Media was as a Senior Software Engineer working
                 on an internal sales applications written using Django. I learned the
@@ -59,18 +90,12 @@
 
                 Some of my coding responsibilities during this time included bringing
                 up the initial site migration system and migrating several sites,
-                implementing the new custom type on the back end, extending how we
-                manage cache invalidation, prototyping parts of the introspected editor,
+                designing and implementing the new custom type on the back end including relevant API,
+                extending how we manage cache invalidation, prototyping parts of the introspected editor,
                 root causing many of our deeper problem, and architecting and helping
                 design the majority of the backend and admin software.
 
-                My current interests are in how we adjust the structure of the
-                editor so it is easier to grow. Some of this is around applying
-                lessons we have learned building a large single page application with
-                AngularJS. Additionally I am working on increasing the performance of
-                the backend in support of better UI responsiveness.
-
-                {\sl Senior Data Engineer} Zephyr Associates \hfill January 2011 - September 2012
+                {\sl\large Senior Data Engineer} Zephyr Associates \hfill January 2011 - September 2012
 
                 Developed an ETL system to replace an existing data
                 pipeline built on DTS using Python 2.7 and SQL Server. The
@@ -94,7 +119,7 @@
                 scaling our databases in size without breaking backwards
                 compatibility.
 
-                {\sl Staff Engineer} Sun Microsystems, Inc (Oracle) \hfill June 2002 - July 2010
+                {\sl\large Staff Engineer} Sun Microsystems, Inc (Oracle) \hfill June 2002 - July 2010
 
                 Updated the IPv6 basic API (RFC 3493) and implemented the IPv6 advanced API (RFC 3542).
 
@@ -121,7 +146,7 @@
                 initial delivery vehicle. Later I worked on providing
                 components for a more complete implementation.
 
-                {\sl Senior Software Engineer} Extreme Networks \hfill December 2000 - April 2002
+                {\sl\large Senior Software Engineer} Extreme Networks \hfill December 2000 - April 2002
 
                 Implemented a memory allocator and buffer management library for a MIPS
                 R4000 operating a T3 line card. I used a fixed buffer layout choosing
@@ -139,7 +164,7 @@
 
                 Implemented EDP (PPP Control Protocol)
 
-                {\sl Senior Software Engineer} Redback  Networks \hfill August 2000 - December 2000
+                {\sl\large Senior Software Engineer} Redback  Networks \hfill August 2000 - December 2000
 
                 Implemented Cisco HDLC for a pre-release optical line card
                 running on custom processors. These processors provided
@@ -152,7 +177,7 @@
                 messages on the host processor and a framework on the data
                 processor to parse the requests and return responses.
 
-                {\sl Technical Lead } Cisco System \hfill February 1999 - August 2000
+                {\sl\large Technical Lead } Cisco System \hfill February 1999 - August 2000
 
                 Delivered Cisco HDLC to a pre-release system aimed at environments with
                 high reliability and scalability needs. Cisco HDLC was used to provide
@@ -169,7 +194,7 @@
                 environment. This was made difficult by needing to support both local
                 and non-local interfaces.
 
-                {\sl Software Design Engineer } QNX Software System Ltd.\hfill June 1995 - August 1998 \\
+                {\sl\large Software Design Engineer } QNX Software System Ltd.\hfill June 1995 - August 1998 \\
                 {\sl Manager TCP/IP Technologies } \hfill Auguest 1998 - February 1999
 
                 Brought a port of the BSD 4.3 Reno TCP/IP stack to
@@ -199,7 +224,7 @@
 
                 Wrote HTML to Troff (man macros, tbl) converter.
 
-                {\sl Senior Software Engineer } Air Touch Teletrac\hfill January 1993 - May 1995
+                {\sl\large Senior Software Engineer } Air Touch Teletrac\hfill January 1993 - May 1995
 
                 Developed a distributed real time simulation under QNX
                 2.x in support of white box testing a RF switch.
@@ -229,7 +254,7 @@
                 Worked as QNX 4 Guru and design expert in a team
                 environment.
 
-                {\sl Software Desin Engineer } Microcosm, Inc. \hfill June 1987 - January 1993
+                {\sl\large Software Design Engineer } Microcosm, Inc. \hfill June 1987 - January 1993
 
                 Developed requirements document, helped design, and wrote
                 parts of Space View, a spacecraft geometry visualization
@@ -259,9 +284,13 @@
                 MS-DOS. Worked with Hercules/EGA/VGA graphics and OS
                 interfaces.
 
+    \section{Skills}
+        \underline{Soft:} Architecture, Team Leadership, Software System Design, New technology evaluation,
+        Pragmatic getting it done
+
+        \underline{Current Languages:} Python, Javascript (many past ones waiting to be rebooted)
+
+        \underline{Systems:} Unix, AWS
+
 \end{resume}
 \end{document}
-
-
-
-
